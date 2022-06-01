@@ -1,0 +1,70 @@
+
+const Country = [
+    {
+      id: 1,
+      Country:India,
+    },
+    {
+      id: 2,
+      Country:USA,
+    },
+    {
+      id: 3,
+      Country:UK,
+    },
+    {
+      id: 4,
+      Country:Australia,
+    },
+    {
+      id: 5,
+      Country:Canada,
+    },
+    {
+      id: 6,
+      Country:SriLanka,
+    },
+    {
+      id: 7,
+      Country:NewZealand,
+    },
+    {
+      id: 8,
+      Country:Pakistan,
+    },
+    {
+      id: 9,
+      Country:Nepal,
+    },
+    {
+      id: 10,
+      Country:Bangladesh,
+    }
+  ];
+
+  const City = [
+      {
+        id: 1,
+        City:Mumbai,
+        CountryId:1,
+        papulation:1000000,
+      },
+      {
+        id: 2,
+        City:Delhi,
+        CountryId:1,
+        papulation:700000,
+      },
+      {
+        id: 3,
+        City:Colombo,
+        CountryId:6,
+        papulation:200000,
+      },
+      {
+        id: 4,
+        City:Chicago,
+        CountryId:2,
+        papulation:600000,
+      },
+  ]
