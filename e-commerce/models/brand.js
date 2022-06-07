@@ -7,6 +7,8 @@ const brandSchema=new mongoose.Schema({
         required:true
     },
     
+},{
+    versionKey:false
 })
 
 module.exports=mongoose.model("Brand",brandSchema);
