@@ -21,6 +21,10 @@ const productSchema=new mongoose.Schema({
         type:Number,
         required:true
     },
+    Address:{
+        type:Array,
+        reuire:true
+    }
 
 },{
     versionKey:false

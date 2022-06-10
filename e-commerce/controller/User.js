@@ -46,6 +46,21 @@ router.patch("/:id/update",async(req,res)=>{
 
 })
 
+router.get("/:id/adress",async(req,res)=>{
+    try {
+        const user=await User.findById(req.params.id);
+        const adress=user.Address;
+
+         return res.status(200).send(adress);
+        
+    } catch (error) {
+        res.status(400).send(error);
+        
+    }
+        
+    }
+)
+
 
 
 
